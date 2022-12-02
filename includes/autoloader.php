@@ -5,5 +5,5 @@
     path of your class sequentially when an 
     object is is instantiated(new Class). 
 */
-
 spl_autoload_register() ;
+
