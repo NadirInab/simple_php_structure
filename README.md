@@ -46,6 +46,9 @@
   print_r() ;
   strtolower() ;
   strtoupper() ;
+  session_start() ;
+  session_destroy()
+  
 ```
 
 📫 How to reach me ? 
