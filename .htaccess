@@ -1,0 +1,22 @@
+/*
+|--------------------------------------------------------------------------
+|                             .htacess                                     |
+|--------------------------------------------------------------------------
+- Q :   What .htacess ? 
+
+- A : Htaccess is a configuration file for the Apache web server .
+Is the entry point of your PHP MVC framework . Handle
+your request in one place, understand what resource 
+is requested and provide the right response .
+------------------------------------------
+Using htaccess and drive the traffic under the public folder,
+ the rest of your project’s structure will be hidden to anyone .
+-----------------------------------------
+         ====>  Example :
+/*
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+
+*/
