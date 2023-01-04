@@ -4,7 +4,8 @@
     "type": "simpleroject",
     "version": "0.0.1",
     "require": {
-        "ramsey/uuid": "^4.6"
+        "ramsey/uuid": "^4.6",
+        "egulias/email-validator": "^3.2"
     },
     "authors": [
         {
